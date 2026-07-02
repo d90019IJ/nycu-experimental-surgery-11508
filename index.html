@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>115學年度醫五實驗外科教師授課查詢系統</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="site-header">
+      <p class="school">國立陽明交通大學</p>
+      <h1>115學年度第一學期 實驗外科課程表</h1>
+      <p class="location">上課地點：醫學二館四樓 書田外科訓練中心</p>
+    </header>
+
+    <section class="search-panel" aria-labelledby="search-title">
+      <h2 id="search-title">教師授課查詢</h2>
+      <form id="searchForm" class="search-form">
+        <label for="teacherKeyword">請輸入老師姓名關鍵字</label>
+        <div class="search-row">
+          <input
+            id="teacherKeyword"
+            name="teacherKeyword"
+            type="search"
+            placeholder="例如：王、陳、林老師"
+            autocomplete="off"
+          >
+          <button type="submit">查詢</button>
+        </div>
+      </form>
+      <p id="resultSummary" class="result-summary" aria-live="polite"></p>
+    </section>
+
+    <section id="results" class="results" aria-label="查詢結果"></section>
+
+    <footer class="site-footer">
+      <p>若授課資訊有誤，請填寫回饋表單或聯繫外科學科助教。</p>
+      <a id="feedbackButton" class="feedback-button" href="#" target="_blank" rel="noopener">回饋表單</a>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
