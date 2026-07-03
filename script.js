@@ -1,4 +1,4 @@
-const feedbackFormUrl = "#"; // 之後請將 # 替換成 Google 表單連結。
+const feedbackFormBaseUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdt3qSfjIq3L7ricBRx1qgToX-33Qhz_YLux2WqdJ06ctdIPQ/viewform?usp=pp_url";
 
 const courseData = [
   {
@@ -1329,7 +1329,31 @@ const results = document.querySelector("#results");
 const resultSummary = document.querySelector("#resultSummary");
 const feedbackButton = document.querySelector("#feedbackButton");
 
-feedbackButton.href = feedbackFormUrl;
+if (feedbackButton) {
+  feedbackButton.href = feedbackFormBaseUrl;
+  feedbackButton.target = "_blank";
+  feedbackButton.rel = "noopener";
+}
+
+function formatFeedbackDate(date) {
+  return String(date || "").trim().replace(/\//g, "-");
+}
+
+function buildFeedbackFormUrl(course) {
+  const fields = {
+    "entry.1914044426": course.teacherName,
+    "entry.864847461": formatFeedbackDate(course.date),
+    "entry.1356444795": course.time,
+    "entry.1595020848": course.topic,
+    "entry.744413284": course.group
+  };
+
+  const queryString = Object.entries(fields)
+    .map(([entryId, value]) => `${entryId}=${encodeURIComponent(value || "")}`)
+    .join("&");
+
+  return `${feedbackFormBaseUrl}&${queryString}`;
+}
 
 function normalizeText(value) {
   return String(value || "").trim().toLowerCase();
@@ -1385,6 +1409,14 @@ function createCourseCard(course) {
   } else {
     materialArea.append(createField("教材連結", "尚未提供", true));
   }
+
+  const reportButton = document.createElement("a");
+  reportButton.className = "material-button";
+  reportButton.href = buildFeedbackFormUrl(course);
+  reportButton.target = "_blank";
+  reportButton.rel = "noopener";
+  reportButton.textContent = "授課資訊回報";
+  materialArea.append(reportButton);
 
   card.append(title, grid, materialArea);
   return card;
