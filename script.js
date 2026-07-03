@@ -1415,7 +1415,7 @@ function createCourseCard(course) {
   reportButton.href = buildFeedbackFormUrl(course);
   reportButton.target = "_blank";
   reportButton.rel = "noopener";
-  reportButton.textContent = "授課資訊回報";
+  reportButton.textContent = "授課資訊有誤回報";
   materialArea.append(reportButton);
 
   card.append(title, grid, materialArea);
