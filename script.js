@@ -10,7 +10,7 @@ const courseData = [
     "group": "B",
     "topic": "外科常見器械與縫線材質之介紹",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1H-8edtLgEz8tIrMwrpsZu-_P27Ucx5YD?usp=sharing",
     "note": ""
   },
   {
