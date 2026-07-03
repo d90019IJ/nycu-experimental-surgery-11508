@@ -10,7 +10,7 @@ const courseData = [
     "group": "B",
     "topic": "外科常見器械與縫線材質之介紹",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "https://drive.google.com/drive/folders/1H-8edtLgEz8tIrMwrpsZu-_P27Ucx5YD?usp=sharing",
+    "materialUrl": "https://drive.google.com/drive/folders/1lhB3TKz_DPeXd7VlqebIfbE52Q43EjtW?usp=drive_link",
     "note": ""
   },
   {
@@ -22,7 +22,7 @@ const courseData = [
     "group": "B",
     "topic": "無菌與換藥原則及技巧、(含手術衣穿脫教學)",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1H-8edtLgEz8tIrMwrpsZu-_P27Ucx5YD?usp=drive_link",
     "note": ""
   },
   {
@@ -34,7 +34,7 @@ const courseData = [
     "group": "B",
     "topic": "無菌與換藥原則及技巧、(含手術衣穿脫教學)",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1H-8edtLgEz8tIrMwrpsZu-_P27Ucx5YD?usp=drive_link",
     "note": ""
   },
   {
@@ -46,7 +46,7 @@ const courseData = [
     "group": "B",
     "topic": "無菌與換藥原則及技巧、(含手術衣穿脫教學)",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1H-8edtLgEz8tIrMwrpsZu-_P27Ucx5YD?usp=drive_link",
     "note": ""
   },
   {
@@ -58,7 +58,7 @@ const courseData = [
     "group": "B",
     "topic": "無菌與換藥原則及技巧、(含手術衣穿脫教學)",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1H-8edtLgEz8tIrMwrpsZu-_P27Ucx5YD?usp=drive_link",
     "note": ""
   },
   {
@@ -94,7 +94,7 @@ const courseData = [
     "group": "BI",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -106,7 +106,7 @@ const courseData = [
     "group": "BI",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -118,7 +118,7 @@ const courseData = [
     "group": "BI",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -130,7 +130,7 @@ const courseData = [
     "group": "BI",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -142,7 +142,7 @@ const courseData = [
     "group": "BI",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -154,7 +154,7 @@ const courseData = [
     "group": "BI",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -166,7 +166,7 @@ const courseData = [
     "group": "BII",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -178,7 +178,7 @@ const courseData = [
     "group": "BII",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -190,7 +190,7 @@ const courseData = [
     "group": "BII",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -202,7 +202,7 @@ const courseData = [
     "group": "BII",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -214,7 +214,7 @@ const courseData = [
     "group": "BII",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -226,7 +226,7 @@ const courseData = [
     "group": "BII",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -238,7 +238,7 @@ const courseData = [
     "group": "A",
     "topic": "外科常見器械與縫線材質之介紹",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1lhB3TKz_DPeXd7VlqebIfbE52Q43EjtW?usp=drive_link",
     "note": ""
   },
   {
@@ -250,7 +250,7 @@ const courseData = [
     "group": "A",
     "topic": "無菌與換藥原則及技巧、(含手術衣穿脫教學)",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1H-8edtLgEz8tIrMwrpsZu-_P27Ucx5YD?usp=drive_link",
     "note": ""
   },
   {
@@ -262,7 +262,7 @@ const courseData = [
     "group": "A",
     "topic": "無菌與換藥原則及技巧、(含手術衣穿脫教學)",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1H-8edtLgEz8tIrMwrpsZu-_P27Ucx5YD?usp=drive_link",
     "note": ""
   },
   {
@@ -274,7 +274,7 @@ const courseData = [
     "group": "A",
     "topic": "無菌與換藥原則及技巧、(含手術衣穿脫教學)",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1H-8edtLgEz8tIrMwrpsZu-_P27Ucx5YD?usp=drive_link",
     "note": ""
   },
   {
@@ -286,7 +286,7 @@ const courseData = [
     "group": "A",
     "topic": "無菌與換藥原則及技巧、(含手術衣穿脫教學)",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1H-8edtLgEz8tIrMwrpsZu-_P27Ucx5YD?usp=drive_link",
     "note": ""
   },
   {
@@ -322,7 +322,7 @@ const courseData = [
     "group": "AI",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -334,7 +334,7 @@ const courseData = [
     "group": "AI",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -346,7 +346,7 @@ const courseData = [
     "group": "AI",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -358,7 +358,7 @@ const courseData = [
     "group": "AI",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -370,7 +370,7 @@ const courseData = [
     "group": "AI",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -382,7 +382,7 @@ const courseData = [
     "group": "AI",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -394,7 +394,7 @@ const courseData = [
     "group": "AII班",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -406,7 +406,7 @@ const courseData = [
     "group": "AII班",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -418,7 +418,7 @@ const courseData = [
     "group": "AII班",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -430,7 +430,7 @@ const courseData = [
     "group": "AII班",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -442,7 +442,7 @@ const courseData = [
     "group": "AII班",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -454,7 +454,7 @@ const courseData = [
     "group": "AII班",
     "topic": "各式Surgical Tie練習及測驗、各式Suture練習及測驗",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1TkVmv_xLR3jAZyzr9vVQlUKbLfX6XW4W?usp=drive_link",
     "note": ""
   },
   {
@@ -466,7 +466,7 @@ const courseData = [
     "group": "AI班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -478,7 +478,7 @@ const courseData = [
     "group": "AI班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -490,7 +490,7 @@ const courseData = [
     "group": "AI班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -502,7 +502,7 @@ const courseData = [
     "group": "AI班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -514,7 +514,7 @@ const courseData = [
     "group": "AI班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -526,7 +526,7 @@ const courseData = [
     "group": "AI班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -538,7 +538,7 @@ const courseData = [
     "group": "AII班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -550,7 +550,7 @@ const courseData = [
     "group": "AII班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -562,7 +562,7 @@ const courseData = [
     "group": "AII班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -574,7 +574,7 @@ const courseData = [
     "group": "AII班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -586,7 +586,7 @@ const courseData = [
     "group": "AII班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -598,7 +598,7 @@ const courseData = [
     "group": "BI班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -610,7 +610,7 @@ const courseData = [
     "group": "BI班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -622,7 +622,7 @@ const courseData = [
     "group": "BI班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -634,7 +634,7 @@ const courseData = [
     "group": "BI班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -646,7 +646,7 @@ const courseData = [
     "group": "BI班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -658,7 +658,7 @@ const courseData = [
     "group": "BI班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -670,7 +670,7 @@ const courseData = [
     "group": "BII班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -682,7 +682,7 @@ const courseData = [
     "group": "BII班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -694,7 +694,7 @@ const courseData = [
     "group": "BII班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -706,7 +706,7 @@ const courseData = [
     "group": "BII班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -718,7 +718,7 @@ const courseData = [
     "group": "BII班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -730,7 +730,7 @@ const courseData = [
     "group": "BII班",
     "topic": "腸吻合",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1ZS71zFh0tQrv71wlfa5zkTlXkrEcaAI1?usp=drive_link",
     "note": ""
   },
   {
@@ -742,7 +742,7 @@ const courseData = [
     "group": "A班(AI+AII)",
     "topic": "豬隻解剖位置介紹、Video 手術教學",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -754,7 +754,7 @@ const courseData = [
     "group": "A班(AI+AII)",
     "topic": "豬隻解剖位置介紹、Video 手術教學",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -838,7 +838,7 @@ const courseData = [
     "group": "B組(8點上課)",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -850,7 +850,7 @@ const courseData = [
     "group": "B組(8點上課)",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -862,7 +862,7 @@ const courseData = [
     "group": "B組(8點上課)",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -874,7 +874,7 @@ const courseData = [
     "group": "B組(8點上課)",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -886,7 +886,7 @@ const courseData = [
     "group": "B組(8點上課)",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -898,7 +898,7 @@ const courseData = [
     "group": "B組(8點上課)",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -910,7 +910,7 @@ const courseData = [
     "group": "B組(8點上課)",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -922,7 +922,7 @@ const courseData = [
     "group": "B組(8點上課)",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -934,7 +934,7 @@ const courseData = [
     "group": "A組(8點上課)",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -946,7 +946,7 @@ const courseData = [
     "group": "A組(8點上課)",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -958,7 +958,7 @@ const courseData = [
     "group": "A組(8點上課)",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -970,7 +970,7 @@ const courseData = [
     "group": "A組(8點上課)",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -982,7 +982,7 @@ const courseData = [
     "group": "A組(8點上課)",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -994,7 +994,7 @@ const courseData = [
     "group": "A組(8點上課)",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1006,7 +1006,7 @@ const courseData = [
     "group": "A組(8點上課)",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1018,7 +1018,7 @@ const courseData = [
     "group": "A組(8點上課)",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1030,7 +1030,7 @@ const courseData = [
     "group": "B班(BI+BII)",
     "topic": "Video 手術教學、豬隻解剖位置介紹",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1042,7 +1042,7 @@ const courseData = [
     "group": "B班(BI+BII)",
     "topic": "Video 手術教學、豬隻解剖位置介紹",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1126,7 +1126,7 @@ const courseData = [
     "group": "B組",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1138,7 +1138,7 @@ const courseData = [
     "group": "B組",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1150,7 +1150,7 @@ const courseData = [
     "group": "B組",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1162,7 +1162,7 @@ const courseData = [
     "group": "B組",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1174,7 +1174,7 @@ const courseData = [
     "group": "B組",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1186,7 +1186,7 @@ const courseData = [
     "group": "B組",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1198,7 +1198,7 @@ const courseData = [
     "group": "B組",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": "刷手"
   },
   {
@@ -1210,7 +1210,7 @@ const courseData = [
     "group": "B組",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1222,7 +1222,7 @@ const courseData = [
     "group": "A組",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1234,7 +1234,7 @@ const courseData = [
     "group": "A組",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1246,7 +1246,7 @@ const courseData = [
     "group": "A組",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1258,7 +1258,7 @@ const courseData = [
     "group": "A組",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1270,7 +1270,7 @@ const courseData = [
     "group": "A組",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1282,7 +1282,7 @@ const courseData = [
     "group": "A組",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1294,7 +1294,7 @@ const courseData = [
     "group": "A組",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   },
   {
@@ -1306,7 +1306,7 @@ const courseData = [
     "group": "A組",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": "刷手"
   },
   {
@@ -1318,7 +1318,7 @@ const courseData = [
     "group": "A組",
     "topic": "豬隻實際模擬手術",
     "location": "醫學二館四樓 書田外科訓練中心-手術室",
-    "materialUrl": "",
+    "materialUrl": "https://drive.google.com/drive/folders/1tDvgUZVL1gxZBByp5pdSR_WHfRBbnL09?usp=drive_link",
     "note": ""
   }
 ];
