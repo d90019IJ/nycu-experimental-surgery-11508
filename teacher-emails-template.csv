@@ -1,0 +1,5 @@
+teacherName,email,hospital,department,cc,note
+測試老師,teacher@example.edu.tw,範例醫院,外科學科,assistant@example.edu.tw,請替換成真實資料後再匯入
+多堂課老師,multi-course@example.edu.tw,範例醫院,外科學科,,
+缺少信箱老師,,範例醫院,外科學科,,
+格式錯誤老師,wrong-email-format,範例醫院,外科學科,,

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>115學年度實驗外科教師授課提醒信產生器</title>
+  <link rel="stylesheet" href="email-generator.css">
+</head>
+<body>
+  <header class="page-header">
+    <div>
+      <p class="eyebrow">僅供行政人員使用</p>
+      <h1>Email 提醒信自動產生器</h1>
+      <p class="intro">依教師授課資料與 Email 名單產生個別提醒信。資料只在本機瀏覽器中處理，重新整理後即清除。</p>
+    </div>
+    <a class="secondary-link" href="index.html">返回教師查詢系統</a>
+  </header>
+
+  <main class="layout">
+    <section class="step-panel">
+      <div class="step-title">
+        <span>步驟1</span>
+        <h2>匯入 Email 名單</h2>
+      </div>
+      <p class="helper">請上傳 CSV，至少包含 <code>teacherName</code> 與 <code>email</code>。請勿將真實 Email 寫入公開 JavaScript 或提交到 GitHub。</p>
+      <div class="upload-row">
+        <label class="file-picker">
+          <input id="csvFile" type="file" accept=".csv,text/csv">
+          <span>選擇 CSV 檔案</span>
+        </label>
+        <a class="secondary-link" href="teacher-emails-template.csv" download>下載 CSV 範本</a>
+      </div>
+      <div id="uploadStatus" class="status-box neutral">尚未匯入 Email 名單。</div>
+    </section>
+
+    <section class="step-panel">
+      <div class="step-title">
+        <span>步驟2</span>
+        <h2>選擇授課日期範圍</h2>
+      </div>
+      <div class="filter-grid">
+        <label>
+          提醒範圍
+          <select id="rangeMode">
+            <option value="all">全部課程</option>
+            <option value="7">未來7天</option>
+            <option value="14">未來14天</option>
+            <option value="custom">自訂起訖日期</option>
+          </select>
+        </label>
+        <label>
+          起始日期
+          <input id="startDate" type="date" disabled>
+        </label>
+        <label>
+          結束日期
+          <input id="endDate" type="date" disabled>
+        </label>
+      </div>
+      <div id="filterSummary" class="summary-grid">
+        <div><strong>0</strong><span>老師人數</span></div>
+        <div><strong>0</strong><span>課程筆數</span></div>
+        <div><strong>-</strong><span>授課日期範圍</span></div>
+      </div>
+    </section>
+
+    <section class="step-panel">
+      <div class="step-title">
+        <span>步驟3</span>
+        <h2>檢查比對結果</h2>
+      </div>
+      <div id="comparisonStatus" class="status-box neutral">匯入 CSV 後會顯示比對結果。</div>
+      <div id="warningList" class="warning-list"></div>
+    </section>
+
+    <section class="step-panel">
+      <div class="step-title">
+        <span>步驟4</span>
+        <h2>預覽郵件</h2>
+      </div>
+      <div class="toolbar">
+        <button id="selectAll" type="button">全選</button>
+        <button id="clearAll" type="button">全部取消</button>
+        <label class="confirm-check">
+          <input id="reviewConfirmed" type="checkbox">
+          我已人工檢查下方預覽內容
+        </label>
+      </div>
+      <div id="previewList" class="preview-list">
+        <div class="empty-state">尚未產生郵件預覽。</div>
+      </div>
+    </section>
+
+    <section class="step-panel">
+      <div class="step-title">
+        <span>步驟5</span>
+        <h2>下載或開啟郵件</h2>
+      </div>
+      <p class="helper">mailto 只會開啟使用者預設郵件程式，不會自動寄出。請逐封確認後再送出。</p>
+      <div class="toolbar">
+        <button id="downloadCsv" type="button" disabled>下載 CSV</button>
+        <button id="downloadJson" type="button" disabled>下載 Gmail 草稿用 JSON</button>
+      </div>
+      <div id="exportStatus" class="status-box neutral">需先匯入資料、檢查預覽並勾選人工確認，才可輸出。</div>
+    </section>
+  </main>
+
+  <template id="previewTemplate">
+    <article class="mail-card">
+      <div class="mail-head">
+        <label class="include-check">
+          <input class="include-input" type="checkbox" checked>
+          納入輸出
+        </label>
+        <span class="course-count"></span>
+      </div>
+      <dl class="mail-meta">
+        <div><dt>收件人</dt><dd class="teacher"></dd></div>
+        <div><dt>Email</dt><dd class="email"></dd></div>
+        <div><dt>CC</dt><dd class="cc"></dd></div>
+        <div><dt>主旨</dt><dd class="subject"></dd></div>
+      </dl>
+      <pre class="body-preview"></pre>
+      <div class="card-actions">
+        <button class="copy-to" type="button">複製收件人</button>
+        <button class="copy-subject" type="button">複製主旨</button>
+        <button class="copy-body" type="button">複製內文</button>
+        <a class="open-mail" href="#">開啟郵件</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="script.js"></script>
+  <script src="email-generator.js"></script>
+</body>
+</html>
