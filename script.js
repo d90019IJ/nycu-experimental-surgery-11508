@@ -1415,7 +1415,7 @@ function createCourseCard(course) {
   reportButton.href = buildFeedbackFormUrl(course);
   reportButton.target = "_blank";
   reportButton.rel = "noopener";
-  reportButton.textContent = "授課資訊有誤回報";
+  reportButton.textContent = "授課資訊回報";
   materialArea.append(reportButton);
 
   card.append(title, grid, materialArea);
@@ -1455,7 +1455,9 @@ function handleSearch(event) {
   renderResults(matches, teacherKeyword.value.trim());
 }
 
-searchForm.addEventListener("submit", handleSearch);
-teacherKeyword.addEventListener("input", handleSearch);
+if (searchForm && teacherKeyword && results && resultSummary) {
+  searchForm.addEventListener("submit", handleSearch);
+  teacherKeyword.addEventListener("input", handleSearch);
 
-renderResults([], "");
+  renderResults([], "");
+}
