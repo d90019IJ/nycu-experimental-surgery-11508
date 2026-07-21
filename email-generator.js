@@ -253,13 +253,16 @@ ${teacherQueryUrl}
 電話：（02）2826-7000 分機65313`;
   }
 
-  function buildMailto(draft) {
+  function buildGmailComposeUrl(draft) {
     const params = [
-      `subject=${encodeURIComponent(draft.subject)}`,
+      "view=cm",
+      "fs=1",
+      `to=${encodeURIComponent(draft.to)}`,
+      `su=${encodeURIComponent(draft.subject)}`,
       `body=${encodeURIComponent(draft.body)}`
     ];
     if (draft.cc) params.push(`cc=${encodeURIComponent(draft.cc)}`);
-    return `mailto:${encodeURIComponent(draft.to)}?${params.join("&")}`;
+    return `https://mail.google.com/mail/?${params.join("&")}`;
   }
 
   function analyze() {
@@ -340,12 +343,12 @@ ${teacherQueryUrl}
         courseCount: courses.length,
         firstCourseDate,
         status: "ready",
-        mailto: ""
+        gmailUrl: ""
       });
     });
 
     drafts.forEach((draft) => {
-      draft.mailto = buildMailto(draft);
+      draft.gmailUrl = buildGmailComposeUrl(draft);
     });
 
     state.drafts = blocking ? [] : drafts;
@@ -419,7 +422,9 @@ ${teacherQueryUrl}
       node.querySelector(".cc").textContent = draft.cc || "無";
       node.querySelector(".subject").textContent = draft.subject;
       node.querySelector(".body-preview").textContent = draft.body;
-      node.querySelector(".open-mail").href = draft.mailto;
+      node.querySelector(".open-mail").href = draft.gmailUrl;
+      node.querySelector(".open-mail").target = "_blank";
+      node.querySelector(".open-mail").rel = "noopener";
 
       includeInput.addEventListener("change", () => {
         if (includeInput.checked) state.selected.add(draft.id);
