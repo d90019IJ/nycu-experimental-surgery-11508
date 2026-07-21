@@ -1,5 +1,6 @@
 (function () {
   const COURSE_SYSTEM_URL = "https://d90019ij.github.io/nycu-experimental-surgery-11508/";
+  const GMAIL_SENDER_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxLcjfDNUhAIHSD7Hpp73QjfJTU-4wXN7y2JnPJBgGCSP2-ijZbkd7o2o2QyzqZCxKG5g/exec";
   const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   const state = {
@@ -25,6 +26,9 @@
     reviewConfirmed: document.querySelector("#reviewConfirmed"),
     downloadCsv: document.querySelector("#downloadCsv"),
     downloadJson: document.querySelector("#downloadJson"),
+    sendToGmailTool: document.querySelector("#sendToGmailTool"),
+    gmailToolForm: document.querySelector("#gmailToolForm"),
+    gmailToolPayload: document.querySelector("#gmailToolPayload"),
     exportStatus: document.querySelector("#exportStatus")
   };
 
@@ -449,6 +453,7 @@ ${teacherQueryUrl}
     const canExport = !state.blocking && selectedCount > 0 && els.reviewConfirmed.checked;
     els.downloadCsv.disabled = !canExport;
     els.downloadJson.disabled = !canExport;
+    els.sendToGmailTool.disabled = !canExport || !GMAIL_SENDER_WEB_APP_URL;
 
     if (state.blocking) {
       setStatus(els.exportStatus, "error", "錯誤：同名但不同 Email，請修正後再輸出。");
@@ -456,8 +461,10 @@ ${teacherQueryUrl}
       setStatus(els.exportStatus, "warning", "警告：目前沒有勾選任何郵件。");
     } else if (!els.reviewConfirmed.checked) {
       setStatus(els.exportStatus, "warning", `警告：已有 ${selectedCount} 封郵件可輸出，但必須先勾選人工檢查確認。`);
+    } else if (!GMAIL_SENDER_WEB_APP_URL) {
+      setStatus(els.exportStatus, "warning", `警告：可輸出 ${selectedCount} 封郵件。若要批次寄出，請先在 email-generator.js 貼上 Apps Script Web App URL。`);
     } else {
-      setStatus(els.exportStatus, "success", `成功：已人工確認，可輸出 ${selectedCount} 封郵件。`);
+      setStatus(els.exportStatus, "success", `成功：已人工確認，可輸出 ${selectedCount} 封郵件，也可送到 Gmail 寄信工具。`);
     }
   }
 
@@ -502,6 +509,33 @@ ${teacherQueryUrl}
       body: draft.body
     }));
     downloadFile("gmail-draft-data.json", "application/json;charset=utf-8", JSON.stringify(data, null, 2));
+  }
+
+  function sendToGmailTool() {
+    const selectedDrafts = getSelectedDrafts();
+    if (!GMAIL_SENDER_WEB_APP_URL || !selectedDrafts.length || !els.reviewConfirmed.checked) {
+      updateExportState();
+      return;
+    }
+
+    const payload = {
+      createdAt: new Date().toISOString(),
+      source: "nycu-experimental-surgery-11508",
+      messageCount: selectedDrafts.length,
+      messages: selectedDrafts.map((draft) => ({
+        teacherName: draft.teacherName,
+        to: draft.to,
+        cc: draft.cc,
+        subject: draft.subject,
+        body: draft.body,
+        courseCount: draft.courseCount,
+        firstCourseDate: draft.firstCourseDate
+      }))
+    };
+
+    els.gmailToolForm.action = GMAIL_SENDER_WEB_APP_URL;
+    els.gmailToolPayload.value = JSON.stringify(payload);
+    els.gmailToolForm.submit();
   }
 
   async function copyText(text, message) {
@@ -559,6 +593,7 @@ ${teacherQueryUrl}
   });
   els.downloadCsv.addEventListener("click", downloadCsv);
   els.downloadJson.addEventListener("click", downloadJson);
+  els.sendToGmailTool.addEventListener("click", sendToGmailTool);
 
   analyze();
 })();

@@ -100,8 +100,12 @@
       <div class="toolbar">
         <button id="downloadCsv" type="button" disabled>下載 CSV</button>
         <button id="downloadJson" type="button" disabled>下載 Gmail 草稿用 JSON</button>
+        <button id="sendToGmailTool" type="button" disabled>送出到 Gmail 寄信工具</button>
       </div>
       <div id="exportStatus" class="status-box neutral">需先匯入資料、檢查預覽並勾選人工確認，才可輸出。</div>
+      <form id="gmailToolForm" method="post" target="_blank" hidden>
+        <input id="gmailToolPayload" name="payload" type="hidden">
+      </form>
     </section>
   </main>
 
