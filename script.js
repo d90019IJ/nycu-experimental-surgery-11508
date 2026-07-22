@@ -764,7 +764,7 @@ const courseData = [
     "weekday": "二",
     "time": "08:30-12:20",
     "group": "A班（AI+AII）",
-    "topic": "AI 氣管插管、AII 人工靜脈注射練習；AII 氣管插管、AI 人工靜脈注射練習",
+    "topic": "氣管插管",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
     "materialUrl": "",
     "note": ""
@@ -776,7 +776,7 @@ const courseData = [
     "weekday": "二",
     "time": "08:30-12:20",
     "group": "A班（AI+AII）",
-    "topic": "AI 氣管插管、AII 人工靜脈注射練習；AII 氣管插管、AI 人工靜脈注射練習",
+    "topic": "氣管插管",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
     "materialUrl": "",
     "note": ""
@@ -1076,7 +1076,7 @@ const courseData = [
     "weekday": "二",
     "time": "13:30-17:20",
     "group": "B班（BI+BII）",
-    "topic": "BI 氣管插管、BII 人工靜脈注射練習；BII 氣管插管、BI 人工靜脈注射練習",
+    "topic": "氣管插管",
     "location": "醫學二館四樓 書田外科訓練中心 419室",
     "materialUrl": "",
     "note": ""
